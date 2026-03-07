@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Poker Room Korea — Рейкбек до 50%</title>
+  <meta name="description" content="Рейкбек до 50% каждую неделю. Бонус на первое пополнение. Кэш-игры и турниры 24/7. Быстрые выплаты." />
+
+  <!-- Meta Pixel Code -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '938477018738809');
+  fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+  src="https://www.facebook.com/tr?id=938477018738809&ev=PageView&noscript=1"
+  /></noscript>
+  <!-- End Meta Pixel Code -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg0:#070A12;
+      --bg1:#0B1022;
+      --stroke: rgba(255,255,255,.10);
+      --text: rgba(255,255,255,.90);
+      --muted: rgba(255,255,255,.68);
+      --muted2: rgba(255,255,255,.52);
+      --accent1:#8A5CFF;
+      --accent2:#00E5FF;
+      --accent3:#24FF9F;
+      --shadow: 0 18px 60px rgba(0,0,0,.55);
+      --radius: 22px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: "Manrope", system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+      color:var(--text);
+      background:
+        radial-gradient(1100px 700px at 10% 10%, rgba(138,92,255,.20), transparent 60%),
+        radial-gradient(900px 650px at 90% 20%, rgba(0,229,255,.16), transparent 55%),
+        radial-gradient(1000px 700px at 50% 100%, rgba(36,255,159,.12), transparent 60%),
+        linear-gradient(180deg, var(--bg0), var(--bg1));
+      overflow-x:hidden;
+    }
+
+    .grain{
+      pointer-events:none;
+      position:fixed; inset:-40%;
+      background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='.18'/%3E%3C/svg%3E");
+      mix-blend-mode:overlay;
+      transform:translate3d(0,0,0);
+      animation: drift 14s linear infinite;
+    }
+    @keyframes drift{
+      0%{transform:translate3d(-2%, -2%, 0)}
+      50%{transform:translate3d(2%, 1%, 0)}
+      100%{transform:translate3d(-2%, -2%, 0)}
+    }
+
+    .wrap{max-width:1100px; margin:0 auto; padding:26px 20px 90px}
+    header{
+      display:flex; align-items:center; justify-content:space-between;
+      gap:14px; padding:10px 0 22px;
+    }
+    .brand{
+      display:flex; align-items:center; gap:12px;
+      text-decoration:none; color:var(--text);
+    }
+    .logo{
+      width:40px; height:40px; border-radius:14px;
+      background:
+        radial-gradient(18px 18px at 30% 30%, rgba(255,255,255,.22), transparent 55%),
+        linear-gradient(135deg, rgba(138,92,255,.95), rgba(0,229,255,.75));
+      box-shadow: 0 10px 28px rgba(138,92,255,.20);
+      border:1px solid rgba(255,255,255,.14);
+    }
+    .brand strong{font-weight:800; letter-spacing:.2px}
+    .tagline{font-size:12.5px; color:var(--muted2); margin-top:2px}
+
+    .top-cta{
+      display:flex; gap:10px; align-items:center;
+    }
+    .pill{
+      font-size:12.5px;
+      color:rgba(255,255,255,.82);
+      padding:9px 12px;
+      border-radius:999px;
+      background:rgba(255,255,255,.05);
+      border:1px solid rgba(255,255,255,.10);
+      backdrop-filter: blur(12px);
+    }
+
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center;
+      gap:10px;
+      border:none;
+      border-radius:14px;
+      padding:12px 16px;
+      font-weight:800;
+      color:#07101A;
+      text-decoration:none;
+      cursor:pointer;
+      box-shadow: 0 18px 60px rgba(0,0,0,.35);
+      transition: transform .15s ease, filter .15s ease;
+      user-select:none;
+      white-space:nowrap;
+    }
+    .btn:hover{transform: translateY(-1px); filter: brightness(1.03)}
+    .btn:active{transform: translateY(0px); filter: brightness(.98)}
+    .btn.tg{
+      background: linear-gradient(135deg, #2AABEE, #1E96D4);
+      color:white;
+    }
+    .btn.secondary{
+      background: rgba(255,255,255,.06);
+      color:rgba(255,255,255,.92);
+      border:1px solid rgba(255,255,255,.12);
+      backdrop-filter: blur(12px);
+      box-shadow:none;
+    }
+
+    .hero{
+      position:relative;
+      padding:28px 0 10px;
+      display:grid;
+      grid-template-columns: 1.2fr .8fr;
+      gap:22px;
+      align-items:stretch;
+    }
+    @media (max-width: 900px){
+      .hero{grid-template-columns:1fr; padding-top:12px}
+      .top-cta{display:none}
+    }
+
+    .heroCard{
+      border-radius: var(--radius);
+      background: rgba(255,255,255,.05);
+      border:1px solid rgba(255,255,255,.10);
+      backdrop-filter: blur(14px);
+      box-shadow: var(--shadow);
+      padding:26px 24px;
+      position:relative;
+      overflow:hidden;
+    }
+
+    h1{
+      margin:0 0 12px;
+      font-size:44px;
+      line-height:1.05;
+      letter-spacing:-.8px;
+    }
+
+    .ctaRow{
+      display:flex; flex-wrap:wrap; gap:12px; align-items:center;
+      margin-top: 6px;
+    }
+
+    footer{
+      margin-top:22px;
+      color:var(--muted2);
+      font-size:12.5px;
+      display:flex;
+      flex-wrap:wrap;
+      gap:10px;
+      justify-content:space-between;
+      align-items:center;
+      padding-top:16px;
+      border-top: 1px solid rgba(255,255,255,.08);
+    }
+
+    .sticky{
+      position:fixed;
+      left:14px; right:14px; bottom:14px;
+      padding:10px;
+      border-radius:18px;
+      background: rgba(10,14,26,.55);
+      border:1px solid rgba(255,255,255,.10);
+      backdrop-filter: blur(14px);
+      display:none;
+      gap:10px;
+      align-items:center;
+      justify-content:space-between;
+      box-shadow: 0 18px 60px rgba(0,0,0,.45);
+      z-index:50;
+    }
+    @media (max-width: 900px){ .sticky{display:flex} }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <header>
+      <a class="brand" href="#top" id="top">
+        <div class="logo"></div>
+        <div>
+          <strong>Poker Room Korea</strong>
+          <div class="tagline">Рейкбек • Бонус • Кэш и турниры 24/7</div>
+        </div>
+      </a>
+
+      <div class="top-cta">
+        <div class="pill">🔥 До 50% рейкбек каждую неделю</div>
+        <a class="btn tg" href="https://t.me/+plPhGY9wL10yODll" target="_blank" rel="noopener">
+          Telegram ↗
+        </a>
+      </div>
+    </header>
+
+    <main class="hero">
+      <section class="heroCard">
+
+        <h1>Начни с преимуществом уже сегодня.</h1>
+
+        <div class="ctaRow">
+          <a class="btn tg" href="https://t.me/+plPhGY9wL10yODll" target="_blank" rel="noopener">
+            Регистрируйся сейчас и забери бонус
+          </a>
+        </div>
+
+      </section>
+    </main>
+
+    <footer>
+      <div>© Poker Room Korea</div>
+      <div>18+ • Играй ответственно</div>
+    </footer>
+  </div>
+
+  <div class="sticky">
+    <p>🎁 Бонус + 🔥 рейкбек до 50%</p>
+    <a class="btn tg" href="https://t.me/+plPhGY9wL10yODll" target="_blank" rel="noopener">Telegram ↗</a>
+  </div>
+</body>
+</html>
